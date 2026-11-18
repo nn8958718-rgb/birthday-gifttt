@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Mimo ♡</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="stage">
+<section class="screen active" id="envelope-screen">
+<p class="eyebrow">A LITTLE SURPRISE FOR YOU</p><h1>For Mimo ♡</h1>
+<button class="envelope-button" id="open-envelope"><img src="letter-envelope.jpg" alt="Pink envelope"><span>Tap to open</span></button>
+<div class="effects" id="envelope-effects" aria-hidden="true"></div><p class="hint">I made something special for you.</p>
+</section>
+<section class="screen" id="cake-screen">
+<p class="eyebrow">MAKE A WISH</p><h1>Your birthday cake ♡</h1><img class="scene-image" src="cake.jpg" alt="Birthday cake">
+<p class="hint">A little wish, just for you.</p><button class="next-button" data-next="birthday-screen">Continue ♡</button>
+</section>
+<section class="screen" id="birthday-screen">
+<div class="floating-decor" aria-hidden="true"><span>🎈</span><span>🌸</span><span>🎈</span><span>🌹</span><span>🎈</span></div>
+<p class="eyebrow">TODAY IS ALL ABOUT YOU</p><h1>Happy Birthday, Mimo!</h1>
+<img class="scene-image" src="birthday.jpg" alt="Birthday decorations"><button class="next-button" data-next="quote-screen">Continue ♡</button>
+</section>
+<section class="screen" id="quote-screen">
+<img class="scene-image" src="quote.jpg" alt="A little birthday message"><h1 class="soft-title">I hope you like it.</h1>
+<button class="next-button" data-next="letter-screen">Open your letter ♡</button>
+</section>
+<section class="screen letter-screen" id="letter-screen">
+<p class="eyebrow">A LETTER FOR YOU</p><article class="letter-card">
+<h1>Dear Mimo,</h1><div class="letter-text">
+<p>Presk 3ana 4 snin n7ebou b3adhna, ta3rach 9adech ta3nili? Sa3at nfakker fina w f kol chy t3adina bih, wnesta8rb kifeh 3abd we7ed ynajem ywali mouhem l hadraja f 7yeti.</p>
+<p>N7eb kol tafsila fik, 7ata li tfi9ech bihom. N7eb kifeh ta7ki, dho7ktk, soutk.</p>
+<p>Belk ma najemch nkoun bjanbk, ama ntmana yji nhar li nal9ani fih dima m3ak, w fi 3id miledk nal9ani m3ak.</p>
+<p>Ken tjini forsa n5tar, n5tark enti fi kol mara.</p>
+<p>N7ebk m2yed, w nchallah snin jeyin lkol yt3adewlna a7la. W lin yji nhar li bch najem n9ollek fih hedha lkol, w ena no8zrlk, bch n9a3ed nab3athlek fih w bch n9a3ed bjanbk. Enti a7la sodfa fi 7yeti.</p>
+<p>Joyeux anniversaire, w nchallah nzidou nkbrou akther m3a b3adhna. ♡</p>
+</div><p class="signature">With love ♡</p></article>
+<button class="next-button" data-next="nineteen-screen">One more surprise ♡</button>
+</section>
+<section class="screen" id="nineteen-screen">
+<p class="eyebrow">A SPECIAL DAY</p>
+<h1>Happy 19, wldy ♡</h1>
+<div class="candle-moment">
+  <img class="scene-image nineteen-photo" src="nineteen.jpg" alt="Nineteenth birthday candles">
+  <div class="candle-side">
+    <p class="candle-label">19 little wishes ♡</p>
+    <div class="candles-grid" id="candles-grid" aria-label="Nineteen lit birthday candles"></div>
+  </div>
+</div>
+<p class="hint" id="wish-message">Close your eyes, make a wish…</p>
+<button class="next-button" id="blow-candles">Blow the candles &amp; make a wish ♡</button>
+<button class="next-button hidden" id="after-wish" data-next="final-screen">Continue ♡</button>
+</section>
+<section class="screen" id="final-screen">
+<div class="final-hearts">♡ ✦ ♡</div><h1>For you, always.</h1>
+<p class="final-message">ntmana li tmanit<br>alih ysir<br><span>mwah ♡</span></p><p class="signature">zawztk t7ebek mimo ♡</p>
+</section>
+</main><script src="script.js"></script></body></html>
